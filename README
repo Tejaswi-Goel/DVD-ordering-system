@@ -1,5 +1,6 @@
-
-
+•	Listing and Ordering of DVDs using Client and Server pair supporting both IPv4 and IPv6 peers in C on Linux environment.
+•	Technologies Used: TCP and UDP protocol, multithreading, multiprotocol, Synchronous I/O multiplexing, Socket programming in C, 
+    IPv4 and IPv6 protocol, Linux OS.
 
 
 == Compile ==
