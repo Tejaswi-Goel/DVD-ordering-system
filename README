@@ -1,0 +1,94 @@
+
+
+
+
+== Compile ==
+
+(IPv6 server Directory)
+    make
+
+(IPv6 server/IPV4 Directory)
+    make
+
+== Run Server == (IPv6 server Directory)
+
+    ./server4 9999
+
+== Run Client ==
+
+IPV4- (IPv6 server/IPV4 Directory)
+    To list the DVD inventory:
+
+    ./client4 <server_ip> <server_port> list
+
+    To order DVDs:
+
+    ./client4 <server_ip> <server_port> order <dvd_id> <qty>
+
+    For examples:
+
+    ./client4 127.0.0.1 9999 list
+    ./client4 127.0.0.1 9999 order 3 20
+
+IPV6- (IPv6 server Directory)
+    To list the DVD inventory:
+
+    ./client4 <server_ip> <server_port> list
+
+    To order DVDs:
+
+    ./client4 <server_ip> <server_port> order <dvd_id> <qty>
+
+    For examples:
+
+    ./client4 ::1 9999 list
+    ./client4 ::1 9999 order 3 20
+-------------------------------------------------------------------------------
+
+
+
+== Compile == 
+
+(IPv6 server Directory)
+    make
+
+(IP6 client/IPV4 Directory)
+    make
+
+== Run Server ==
+
+IPV4- (IPv6 server/IPV4 Directory)
+    ./server4 9999
+
+IPV6- (IPv6 server Directory)
+    ./server4 9999
+
+== Run Client ==  (IPv6 server Directory)
+
+IPV4-
+    To list the DVD inventory:
+
+    ./client4 <server_ip> <server_port> list
+
+    To order DVDs:
+
+    ./client4 <server_ip> <server_port> order <dvd_id> <qty>
+
+    For examples:
+
+    ./client4 127.0.0.1 9999 list
+    ./client4 127.0.0.1 9999 order 3 20
+
+IPV6-
+    To list the DVD inventory:
+
+    ./client4 <server_ip> <server_port> list
+
+    To order DVDs:
+
+    ./client4 <server_ip> <server_port> order <dvd_id> <qty>
+
+    For examples:
+
+    ./client4 ::1 9999 list
+    ./client4 ::1 9999 order 3 20
